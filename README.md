@@ -17,7 +17,7 @@ db2, poweredoff, 1, 1024MB, 51200MBytes,51200MBytes
 
 To get as JSON format, execute like below.
 
-```
+```bash
 # ./list_vms.sh json
 [
   {
@@ -33,7 +33,7 @@ To get as JSON format, execute like below.
 ]
 ```
 
-*** Note: In json format, the trailing comma exists. *** Please use parser which allow that.
+***Note: In json format, trailing comma exists.*** Please use a parser which allow that.
 
 You can pipe these to file or other scripts.
 
